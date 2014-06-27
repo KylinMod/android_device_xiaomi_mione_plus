@@ -5,15 +5,15 @@ PRODUCT_RELEASE_NAME := mione_plus
 TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
 
-# Inherit some common MK stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+# Inherit some common KM stuff.
+$(call inherit-product, vendor/kylin/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/mione_plus/device_mione_plus.mk)
 
 # Setup device specific product configuration.
 PRODUCT_DEVICE := mione_plus
-PRODUCT_NAME := mk_mione_plus
+PRODUCT_NAME := km_mione_plus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI-ONE Plus
 PRODUCT_MANUFACTURER := Xiaomi
